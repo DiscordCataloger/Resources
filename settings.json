@@ -1,0 +1,73 @@
+{
+    "workbench.colorTheme": "Material Theme Darker",
+    "python.languageServer": "Pylance",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', 'Droid Sans Mono', 'monospace', monospace",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only"
+    ],
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnType": true,
+        "python.linting.flake8Enabled": true,
+        "python.linting.flake8Args": [
+            "--ignore=E402,W503"
+        ]
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": true,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        },
+        "html.format.enable": true,
+        "html.format.wrapLineLength": 80,
+        "html.format.wrapAttributes": "auto",
+        "html.format.indentInnerHtml": true,
+        "html.format.indentHandlebars": true,
+        "html.format.preserveNewLines": true,
+        "html.format.wrapAttributesIndentSize": 2,
+        "html.format.unformatted": [
+            "pre",
+            "code",
+            "textarea"
+        ]
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "html": "html",
+        "css": "css"
+    },
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**.*}.{txt.in}": "pip-requirements",
+        "*.html": "html"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#769f88",
+        "variables": "#cebb4e",
+        "keywords": "#e89908",
+        "strings": "#94fbab",
+        "functions": "#e7a73a",
+        "numbers": "#f294fb",
+    },
+    "window.zoomLevel": 1,
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.iconTheme": "vscode-great-icons"
+}
